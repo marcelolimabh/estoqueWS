@@ -8,6 +8,8 @@ public enum TipoItem {
 	LIVRO("Livro"), 
 	@XmlEnumValue("Celular")
 	CELULAR("Celular"),
+	@XmlEnumValue("Computador")
+	COMPUTADOR("Computador"),
 	@XmlEnumValue("Tablet")
 	TABLET("Tablet");
 	
